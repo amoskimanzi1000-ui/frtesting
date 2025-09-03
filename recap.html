@@ -1,0 +1,389 @@
+
+
+<!Doctype html>
+<html lang="el">
+<Head>
+<Title>HTML</Title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Layout.css">
+<link rel="stylesheet" href="http://getbootstrap.com">
+<Style>
+.Amos{
+text-align:center;
+position:fixed;
+display:block;
+Background-color:lightblue;
+margin-top:0 ;
+width:100%;
+height:80px;
+z-index:1;
+opacity:1;
+}
+.Amos:hover{
+Background-color:yellow;
+height:90px;
+}
+h1{
+Font-size:40px;
+Color:#7F00FF;
+margin-top:0;
+}
+h1:hover{
+Font-size:40px;
+Color:#7F00FF;
+Font-size:50px;
+Color:coral;
+}
+
+Table,th,td{
+Border: 3px solid Violet;
+padding:0px;
+Margin : auto;
+border-collapse: collapse;
+cursor:Pointer;/*can also be changed to standard.*/
+}
+tr:hover {
+  background-color: #800000; /* Change to your desired hover color...for the normal css */
+}
+Body{
+Margin : 0;
+Padding : 0;
+Background-color : green;
+}
+#kimz{
+color: yellow;
+Text-decoration : underline;
+}
+<!--body{
+background-image: url('C:\Users\user\OneDrive\Desktop\img.png');
+}-->
+.imgalign{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h1{
+Margin-bottom:0;
+}
+#date{
+color : Yellow;
+font-size:40px;
+margin-top:0px;
+}
+#date:hover{
+color: #FF0000;
+Background-color:#FFFFFF;
+Cursor:Pointer;
+}
+ #td1:hover{
+color:maroon;
+Background-color:violet;
+}
+.l_qs{
+font-size:40px;
+color:maroon;
+padding-top:20px;
+}
+#brdc{
+color:red !important;
+}
+
+</Style>
+
+</Head>
+<Body style="font-family:'Great Vibes',cursive;" id="clearAll">
+<div Class="Amos">
+<h1 ><u><i><b>ADVANCEMENT IN DOCUMENT OBJECT MODEL</b></i></u></h1>
+</div>
+<br>
+
+<marquee scrollamount=20><p class="l_qs" onmouseover="me()"><span id="brdc">Syntax:</span>To be used within script tag,:element.addEventListener(event e.g click...omit the prefix on, function, useCapture embedded in prompt,alert,confirm methods e.t.c); follow this syntax if the Id had already been declared within the element,else declare the event handler within the element and assign the function name,then in the script tag,call the function... To use the Bootstrap glyphicons, add the following line inside the <head> section of your HTML page:lnk rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+The simplest way to add an icon to your HTML page, <strong><u><i>is with an icon library, such as Font Awesome</i></u></strong>.
+Add the name of the specified icon class to any inline HTML element (like <i> or <span>).
+All the icons in the icon libraries below, are scalable vectors that can be customized with CSS (size, color, shadow, etc.)Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.
+Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme.
+Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign.
+Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.</p></marquee>
+<script>
+//function me() {
+  alert("THE ELDERWOOD: EPISODE I by Kiran Evans");
+  var conf = confirm("Play this game?");
+  if (conf === false) {
+    return;
+  } else {
+    alert("Let's go!");
+  };
+  alert("It was a dark and stormy night, when a mouse stirred in the woods. You check your watch, it's nearly midnight... and you are lost.");
+  alert("You came here for a stroll, but that was at 5pm and the Sun was still up. Now everything is pitch black and the only light is coming from the Moon and stars.");
+  var torchSearch = confirm("Do you want to search your bag for a torch?");
+  if (torchSearch === true) {
+    alert("You search your bag and find a torch, with very low battery power.");
+    alert("You shine the torch ahead of you, and notice that the path forks into two.");
+  } else {
+    alert("You don't search your bag, and have to deal with the lack of natural light.");
+    alert("After walking a little while, you can just about make out that the path forks into two.")
+  };
+  var pathChoice = prompt("Do you want to take the left or right fork? (Type 'L' or 'R')");
+  if (pathChoice.toUpperCase()=== 'L') {
+    alert("You take the left path, and continue walking.");
+    alert("You eventually come across a stream.");
+    if (torchSearch === true) {
+      alert("You shine the torch into it and see that the stream is running very fast, and is too deep to wade through.");
+    } else {
+      alert("You cannot tell how fast or how deep it is, so you try to wade through.");
+      alert("Half way across, you sink into the stream which has become a river and cannot escape. You get swept under and cannot breathe.");
+      alert("You drowned.");
+      return;
+    };
+    alert("You decide to turn back and take the right path.");
+  } else {
+    alert("You take the right path, and continue walking.");
+  };
+  alert("Down the right path, you come across a small construction of sticks and twigs.");
+  var wigwamSearch = confirm("Do you want to look inside?");
+  if (wigwamSearch === true) {
+    if (torchSearch === true) {
+      alert("You shine your torch into it, and a small goblin-like creature lashes out at you.");
+      alert("Hitting it with the torch, you manage to fight it off and it hobbles back into its lair.");
+    } else {
+      alert("You poke your head inside to get a better look and can just about make out a pair of glowing red eyes right in your face.");
+      alert("Whatever the creature is, you can hear it breathing and it begins to shriek.");
+      alert("The creature screams, lashes out and attacks you. You have nothing to fight it with, so have to use your fists.");
+      alert("You manage to fight it off eventually, but not without some extreme injuries. You are bleeding heavily from your neck, where the creature has bitten you.");
+      alert("The scent of your blood attracts more of the creatures.");
+      var run = confirm("Do you want to run?");
+      if (run === true) {
+        alert("You get back on your feet and start running...");
+        alert("...but it's not enough. The creatures outnumber you, though you can't see how many there are.");
+        alert("They overpower you and devour you. You died.");
+        return;
+      } else {
+        alert("You sit back and await your approaching doom.");
+        alert("The creatures surround you and tear you to pieces. You died.");
+        return;
+      };
+    };
+  } else {
+    alert("You decide not to look inside the structure and continue walking.");
+  };
+  alert("Your legs begin to feel tired, so you check your watch. It is now 30 minutes into the morning. You know you must find a way out of the woods soon as you are feeling tired and hungry.");
+  alert("You hear rustling behind you and spin round...");
+  if (torchSearch === true) {
+    alert("You point your torch at the noise and a fleck of white catches your eye in the blackness of the night.");
+    alert("You move your torch about and more patches of white appear until they start to form the shapes of creatures.");
+    alert("One of the creatures emerges from the darkness onto the path from where you just came.");
+    alert("It is small, not much higher than your waist, and has bright red eyes. Its skin is inexplicably pale and scarred in several places.");
+    alert("More creatures step out into the torchlight and slowly begin hobbling towards you.");
+    var runFrom = confirm("Do you want to run?");
+    if (runFrom === true) {
+      alert("You turn away from them and begin to pick up your pace, going from a walk to a jog and eventually into a sprint.");
+      alert("Despite your incredible speed, you can hear the creatures close behind at all times.");
+      alert("You feel the ground under your feet change from soft soil to hard rock.");
+      var checkSurroundings = confirm("The creatures are still hot on your heels. Do you want to pause to check out your surroundings?");
+      if (checkSurroundings === true) {
+        alert("You slow down, shining your torch around and notice a cliff edge up ahead. You notice how you are now on top of a cliff, in an open space.");
+        alert("You quickly change direction and begin running parallel to the cliff edge.");
+      } else {
+        alert("You pick up the pace, set on the path ahead....");
+        alert("...which suddenly disappears from underneath you.");
+        alert("You are falling...");
+        alert("...for ever...");
+        alert("...until you hit the floor.");
+        alert("You died.");
+        return;
+      };
+    } else {
+      alert("You stay put, observing the creatures as they approach. Keeping the torchlight fixed on them, your hands begin to shake as you notice the closer ones gnashing their teeth.");
+      alert("Frozen in fear, you begin to sweat as the first creature reaches you and sniffs you.");
+      alert("The creature jumps onto you, knocking you to the ground and licks your face.");
+      alert("The others surround you and the one on top of you bites your neck.");
+      alert("You scream in pain as the creatures eat you alive.");
+      return;
+    };
+  } else {
+    alert("You cannot make out anything behind you, dismissing it as your imagination.");
+    alert("You feel the ground under your feet change from soft soil to hard rock.");
+    alert("You pick up the pace, set on the path ahead....");
+    alert("...which suddenly disappears from underneath you.");
+    alert("You are falling...");
+    alert("...for ever...");
+    alert("...until you hit the floor.");
+    alert("You died.");
+    return;
+  };
+  alert("The cliff eventually becomes a road and you hear the creatures behind you scream with anger as you reach a lamp post and are safely in the light.");
+  alert("You can see the lights of a town ahead of you, and head for them.");
+  alert("You check your watch. The time is now 1am. You're feeling extremely fatigued and don't know if you can make it to the next town.");
+  var sit = confirm("There is a bench beside the road. Do you want to sit down, and rest?");
+  if (sit === true) {
+    alert("With the creatures well out of reach, you take a seat on the bench and close your eyes.");
+  } else {
+    alert("You decide to soldier on until you reach the town.");
+    alert("Unfortunately, you overestimated the capacity of your own stamina and collapse in the middle of the road and black out.");
+  };
+  alert("END OF EPISODE I.");
+  var restart = confirm("Do you want to restart?");
+  if (restart === true) {
+    theElderwood1();
+    return;
+  } else {
+    scoreCount += 1;
+    score(1, 'theElderwood2');
+    alert("UNLOCKED! The Elderwood: Episode II");
+    return;
+  };
+  return;
+};
+
+</script>
+<script>
+//For the heading.
+let txt=document.getElementById('brdc');
+//let ClearCNT=document.body;
+//nb: => Replaces the keyword function of this code
+txt.addEventListener('mousemove',()=>{
+var usr=prompt('Hello user,Please enter your Id!');
+let fhf=456378678;
+let Aid=321149;
+if(usr==fhf){
+alert('Success!,Good to go!');
+return;
+}
+if(usr==Aid){
+alert('Hey user'+" "+'you have entered Id for Amos'+" "+usr);
+}
+let usr1=prompt('Enter the correct id');
+if(usr1==fhf){
+alert('re-entered correctly,Success!');
+return;
+}else{
+alert('Blocked!');
+//ClearCNT.innerHTML="";
+document.write('');
+return;
+}
+});
+</script>
+
+<P ID="date" onclick="myFunctionv()"></P>
+
+<script>
+//This code display the current date and alignment
+document.getElementById("date").innerHTML=Date();
+date.style.textAlign = "center";
+</script>
+
+<img  id="Kimanzi" src="file:///C:/Users/user/OneDrive/Desktop/WEBDEVELOPMENT/img/LOGO.PNG" class="imgalign" style="width:50%;">
+<br>
+
+<Table id="testing" class="w3-table w3-bordered w3-table w3-table-all w3-centered ">
+<tr>
+<td>Number</td>
+<td>Driver's Name</td>
+<td>Driver's Id</td>
+<td>Vehicles registration number</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Tecla</td>
+<td>5451212</td>
+<td>KDQ 150R</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Jacob</td>
+<td>658943</td>
+<td>KDH 120Q</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Jackline</td>
+<td>956332</td>
+<td>KDG 140T</td>
+</tr>
+</Table>
+<script>
+// Get the table element 
+        const table = document.getElementById('testing');
+        
+       /* // Add mouseover event listener
+		//Executes all the statements.Order doesn't matter
+        table.addEventListener('click', function() {
+		  alert('Caution: This will disappear when you click Ok!');
+          document.getElementById('testing').innerHTML="";
+		  	 return;
+		   });
+	*/
+		  /* Alternative: 
+		   // Get the table element 
+        const table = document.getElementById('testing');
+        
+        // Add mouseover event listener
+        table.addEventListener('mouseover', functionName());
+		function functionName(){
+          alert('Hey user! Move the mouse out of the page to continue browsing!');
+		  Add any other statement...(optional);
+		   });*/
+</script>
+
+</BR></BR>
+
+<!--comment section-->
+<!--//single line comment and/* */ for multiple lines-->
+<!..included in script tags at the bottom of source code-->
+<!--still on buttons (document.write,windows.alert,console.log)-->
+<!--the below js code(window.alert) will popup a box for notification purposes.Windows is optional-->
+<button class="w3-button w3-khaki w3-button w3-hover-purple" onclick="window.alert('Hey user! What is your name?');" class="w3-button">nofication/popup txt</button>
+
+</BR></BR>
+<img id="Kimanzi" src="file:///C:/Users/user/OneDrive/Desktop/WEBDEVELOPMENT/img/Capture.PNG1.PNG">
+
+<Marquee scrollamount=15 width=50%><strong><p id="kimz" align="center">All rights reserved!</p></strong></Marquee>
+
+<!--<button type=button onclick='document.getElementById("kimz").innerHTML = "Hello World!"'>JC BUTTON</button>-->
+<!--the below js code (document.write) will replace the entire page content-->
+<button onclick="document.write('No content!.Kindly refresh the page.');">Testing</button>
+<script>
+document.getElementById("kimz").innerHTML="All rights reserved!";
+</script>
+
+<!--js statement-->
+<!--Variable/named storage space.
+declaration and rules of naming variables must be observed-->
+<!--Var=Oldschool way while Let=modern way of  declaring variables in js-->
+<p id="variabledemo"></p>
+
+<!--<//(single l) and /**/ (ml)comments should be written in script tags>-->
+<!--const variable.... for constant values e.g fixed price of items-->
+<script>
+let num1,num2,answer;
+num1=30;
+num2=50;
+answer=num1+num2;
+document.getElementById('variabledemo').innerHTML="This is the total value based on user inputs "+answer;
+</script>
+<script>
+document.getElementById("date").onclick=function(){
+alert("Please confirm if the date and time indicated is valid before viewing any other content,else seek assistance!");
+alert("Confirm to exit");
+};
+</script>
+<script>
+      //document.addEventListener('mouseover', function() {
+            alert('No more scrolling,Kindly reach out on 0736990508 for assistance!');
+        });
+    </script>
+	<!--color value calls the gradient-->
+	<div class="color-picker">
+                <label>Choose color:</label>
+                <input type="color" id="shapeColor" value="#ff0000">
+            </div>
+			<script>
+			
+
+</script>
+<p id="zxxcxcvx"></p>
+
+ </Body>
+</html>
